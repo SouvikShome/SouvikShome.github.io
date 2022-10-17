@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&family=Noto+Sans:wght@200;400&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Noto+Sans:wght@200;400&family=Roboto:ital,wght@0,300;1,400&family=Source+Code+Pro:wght@300&display=swap');
 
 * {
   margin: 0%;
@@ -6,24 +7,86 @@
 }
 
 .sidebar {
-  background-color: red;
+  /* *colcour for side bar */
+  background-color: rgb(164, 163, 162);
   width: 10vw;
   font-family: 'Noto Sans', sans-serif;
+  height: 100vh;
 }
 
 .sidebar nav {
-  padding: 72px;
+  padding: 35px;
 }
 
 .sidebar nav li {
   list-style: none;
+  font-size: 20px;
+  padding: 33px 0;
 }
 
 .main {
-  background-color: yellow;
-  width: 80vw;
+  /* * mainbackground colour */
+  width: 90vw;
 }
 
 .container {
   display: flex;
+}
+
+.infoContainer {
+  /* * Colour for INfo container 
+  background-color: brown; */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+  font-size: 65px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+}
+.about {
+  font-size: 30px;
+}
+.moreAbout {
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.buttons {
+  margin-top: 34px;
+}
+
+.buttons button {
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: cornflowerblue;
+}
+
+.devPic img {
+  height: 58vh;
+  width: 30vw;
 }
